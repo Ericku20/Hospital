@@ -4,10 +4,25 @@
  */
 package Pacientes;
 
+import java.util.Stack;
+
 /**
  *
  * @author Student
  */
-public class ListaPacientes {
-    
+public class ListaPacientes extends Pacientes {
+
+    private Stack<Pacientes> pacientes;
+
+    public class agregar {
+        
+    }
+
+    public class atendido {
+
+    }
+
+    public class buscar {
+
+    }
 }
