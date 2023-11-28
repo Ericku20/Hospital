@@ -4,7 +4,7 @@
  */
 package Pacientes;
 
-import java.util.Stack;
+import java.util.ArrayList;
 
 /**
  *
@@ -12,17 +12,18 @@ import java.util.Stack;
  */
 public class ListaPacientes extends Pacientes {
 
-    private Stack<Pacientes> pacientes;
+    private ArrayList<Pacientes> pacientes;
 
     public class agregar {
-        
+        pacientes.add();
     }
 
     public class atendido {
 
     }
 
-    public class buscar {
-
+    public ListaPacientes(int cedula) {
+        this.pacientes = pacientes;
+        this.cedula = cedula;
     }
 }

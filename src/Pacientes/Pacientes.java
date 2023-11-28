@@ -12,7 +12,7 @@ import java.util.Date;
  */
 public class Pacientes {
 
-    private int cedula;
+    int cedula;
     private String nombre;
     private Date fecha;
     private Date HoraLLegada;
@@ -51,6 +51,11 @@ public class Pacientes {
         this.HoraSalida = HoraSalida;
     }
 
+    public int getCedula() {
+        return cedula;
+    }
+
+    
     public Pacientes(int cedula, String nombre, Date fecha, Date HoraLLegada, Date HoraSalida, String Clasificacion) {
         this.cedula = cedula;
         this.nombre = nombre;
